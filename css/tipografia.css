@@ -1,0 +1,56 @@
+:root {
+  /* Família de fontes */
+  --font-primary: "Inter", sans-serif;
+
+  /* Tamanhos das fontes */
+  --font-size-menu: 1.125rem; /* 18px menu */
+  --font-size-h1: 3.125rem; /* 50px em telas grandes, 36-40px em telas pequenas */
+  --font-size-p: 1.125rem; /* 18px - parágrafos */
+  --font-size-button: 1rem; /* 16px - botão */
+  --font-size-heading: 2.625rem; /* 42px para títulos secundários */
+  --font-size-small-p: 1rem; /* 16px para pequenos parágrafos */
+
+  /* Pesos das fontes */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Estilo Itálico */
+  --font-italic: italic;
+}
+
+/* Menu */
+.font-menu {
+  font: var(--font-weight-regular) 1.125rem/1.5 var(--font-primary); /* 400 18px / 1.5 */
+}
+
+/* Título Principal (h1) */
+.font-h1 {
+  font: var(--font-weight-bold) 3.125rem/1.2 var(--font-primary); /* 700 50px / 1.2 */
+}
+
+/* Parágrafos principais */
+.font-p {
+  font: var(--font-weight-regular) 1.3125rem/1.5 var(--font-primary); /* 400 21px / 1.5 */
+}
+
+/* Botão */
+.font-button {
+  font: var(--font-weight-medium) 1rem/1.5 var(--font-primary); /* 500 16px / 1.5 */
+}
+
+/* Títulos Secundários */
+.font-heading {
+  font: var(--font-weight-semibold) 2.625rem/1.3 var(--font-primary); /* 600 42px / 1.3 */
+}
+
+/* Pequenos Parágrafos */
+.font-small-p {
+  font: var(--font-weight-regular) 1rem/1.5 var(--font-primary); /* 400 16px / 1.5 */
+}
+
+/* Parágrafos em itálico */
+.font-italic-p {
+  font: var(--font-italic) 1.125rem/1.5 var(--font-primary);
+}

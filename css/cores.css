@@ -1,0 +1,38 @@
+:root {
+  --cor-primaria: #203a43; /* Cor para h1 e parágrafos principais */
+  --cor-secundaria: #4d4d4d; /* Cor para o menu e parágrafo na seção sobre mim */
+  --cor-destaque: #e9967a; /* Cor para botões e detalhes */
+  --fundo-1: #f6f6f5; /* Cor do primeiro fundo */
+  --fundo-2: #f5f5dc; /* Cor do segundo fundo */
+  --fundo-3: #f4f4f4; /* Cor do terceiro fundo */
+
+  --cor-terciaria: #302f2f; /* Cor para parágrafos da seção de clientes */
+}
+
+.text-cor-primaria {
+  color: var(--cor-primaria);
+}
+
+.text-cor-secundaria {
+  color: var(--cor-secundaria);
+}
+
+.text-cor-terciaria {
+  color: var(--cor-terciaria);
+}
+
+.destaque-cor-destaque {
+  color: var(--cor-destaque);
+}
+
+.bg-1 {
+  background-color: var(--fundo-1);
+}
+
+.bg-2 {
+  background-color: var(--fundo-2);
+}
+
+.bg-3 {
+  background-color: var(--fundo-3);
+}
