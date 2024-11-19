@@ -1,0 +1,61 @@
+.atuacao {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 4rem;
+}
+
+.atuacao-container {
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.atuacao-container h2 {
+  margin-bottom: 2rem;
+}
+
+.info-atuacao {
+  display: grid;
+  grid-template-columns: 40% 1fr 1fr;
+  grid-template-rows: 60% 30% 10%;
+}
+
+.livros {
+  grid-area: 1 / 1 / 4 / 2;
+}
+.paragrafo-1 {
+  grid-area: 1 / 2 / 3 / 3;
+}
+.paragrafo-2 {
+  grid-area: 1 / 3 / 3 / 4;
+}
+
+.paragrafo {
+  align-content: center;
+}
+.info-atuacao ul li::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 10px;
+  margin-right: 8px;
+  background: var(--cor-destaque);
+  transition: width 0.2s;
+}
+
+ul li:hover::before {
+  width: 8px;
+}
+
+.info-atuacao::after {
+  grid-area: 3 / 2 / 4 / 4;
+  content: "";
+  display: block;
+  width: 580px;
+  height: 4px;
+  background-color: var(--cor-destaque);
+}

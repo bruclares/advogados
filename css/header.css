@@ -6,12 +6,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-menu {
   display: flex;
   flex-wrap: wrap;
   gap: 10rem;
+}
+
+.introducao {
+  margin-bottom: 4rem;
 }
 
 .introducao-texto {

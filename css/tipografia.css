@@ -32,7 +32,10 @@
 
 /* Parágrafos principais */
 .font-p {
-  font: var(--font-regular) 1.5/1 var(--font-primary); /* 400 21px / 1.5 */
+  font: var(--font-regular) 1rem/1.5 var(--font-primary); /* 400 21px / 1.5 */
+}
+.font-p2 {
+  font: var(--font-semibold) 1.2rem/2 var(--font-primary); /* 400 21px / 1.5 */
 }
 
 /* Botão */
