@@ -1,0 +1,32 @@
+.depoimento {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 4rem;
+}
+
+.depoimento-container {
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.depoimento-titulo h2 {
+  margin-bottom: 0.5rem;
+}
+
+.depoimento-titulo p {
+  margin-bottom: 3rem;
+}
+
+.depoimento-cliente {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 80px;
+}
+
+.depoimento-conteudo span {
+  font-weight: var(--font-medium);
+}
