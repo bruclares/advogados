@@ -1,7 +1,6 @@
 .atuacao {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  margin-bottom: 4rem;
 }
 
 .atuacao-container {
@@ -23,7 +22,7 @@
   grid-template-rows: 60% 30% 10%;
 }
 
-.livros {
+.atuacao-img {
   grid-area: 1 / 1 / 4 / 2;
 }
 .paragrafo-1 {
