@@ -17,6 +17,11 @@
   flex: 1 1 0;
 }
 
+.contato-container img {
+  object-fit: cover;
+  max-height: fit-content;
+}
+
 .contato-titulo h2 {
   margin-bottom: 6rem;
 }

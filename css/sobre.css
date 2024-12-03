@@ -8,7 +8,8 @@
   box-sizing: border-box;
   padding: 20px;
   margin: 0 auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -16,6 +17,11 @@
 
 .sobre-container > * {
   flex: 1 1 0;
+}
+
+.sobre-container img {
+  object-fit: cover;
+  max-height: fit-content;
 }
 
 .paragrafos {

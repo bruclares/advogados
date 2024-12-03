@@ -16,6 +16,11 @@
   margin-bottom: 2rem;
 }
 
+.atuacao-container img {
+  object-fit: cover;
+  max-height: fit-content;
+}
+
 .info-atuacao {
   display: grid;
   grid-template-columns: 40% 1fr 1fr;
