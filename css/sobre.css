@@ -13,21 +13,30 @@
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.sobre-container > * {
-  flex: 1 1 0;
+  column-gap: 6rem;
 }
 
 .sobre-container img {
   object-fit: cover;
-  max-height: fit-content;
+  object-position: right;
 }
 
-.paragrafos {
-  display: flex;
-  flex-direction: column;
-  margin-left: 100px;
-  row-gap: 1rem;
-  justify-content: center;
+.paragrafos h2 {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .sobre-container img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .sobre-container {
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 3rem;
+  }
 }

@@ -22,7 +22,7 @@
 
 /* Menu */
 .font-menu {
-  font: var(--font-bold) 1.125rem/1.5 var(--font-primary); /* 700 18px / 1.5 */
+  font: var(--font-bold) 1.5rem/1.5 var(--font-primary); /* 700 18px / 1.5 */
 }
 
 /* Título Principal (h1) */
@@ -32,7 +32,7 @@
 
 /* Parágrafos principais */
 .font-p {
-  font: var(--font-regular) 1rem/1.7rem var(--font-primary); /* 400 21px / 1.5 */
+  font: var(--font-regular) 1.2rem/1.7rem var(--font-primary); /* 400 21px / 1.5 */
 }
 .font-p2 {
   font: var(--font-semibold) 1.2rem/2 var(--font-primary); /* 400 21px / 1.5 */
@@ -40,7 +40,7 @@
 
 /* Botão */
 .font-button {
-  font: var(--font-medium) 1.25rem/1.5 var(--font-primary); /* 500 16px / 1.5 */
+  font: var(--font-medium) 1.5rem/1.5 var(--font-primary); /* 500 16px / 1.5 */
 }
 
 /* Títulos Secundários */
@@ -55,23 +55,23 @@
 
 /* Parágrafos em itálico */
 .font-italic-p {
-  font: var(--font-italic) 1.5rem/1.5 var(--font-primary); /* italico 18px / 1.5 */
+  font: var(--font-italic) 2rem/1.5 var(--font-primary); /* italico 18px / 1.5 */
 }
 
 @media (max-width: 1200px) {
   .font-h1 {
     font-size: 4rem;
   }
-  .font-italic-p {
-    font-size: 1.25rem;
-  }
 }
 
 @media (max-width: 800px) {
   .font-h1 {
-    font-size: 3.5rem;
+    font-size: 3.25rem;
   }
   .font-italic-p {
-    font-size: 1rem;
+    font-size: 2rem;
+  }
+  .font-button {
+    font-size: 1.5rem;
   }
 }
