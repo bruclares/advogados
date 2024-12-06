@@ -29,3 +29,11 @@
 .depoimento-conteudo span {
   font-weight: var(--font-medium);
 }
+
+@media (max-width: 800px) {
+  .depoimento-cliente {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+  }
+}
