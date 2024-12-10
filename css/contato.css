@@ -7,23 +7,20 @@
   box-sizing: border-box;
   padding: 20px;
   margin: 0 auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.contato-container > * {
-  flex: 1 1 0;
-}
-
 .contato-container img {
-  object-fit: cover;
-  max-height: fit-content;
+  object-fit: contain;
 }
 
 .contato-titulo h2 {
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
 }
 
 .dados-contato > * {
@@ -36,4 +33,12 @@
 
 .dados-info {
   font: var(--font-regular) 1rem/1.7rem var(--font-primary);
+}
+
+@media (max-width: 800px) {
+  .contato-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+  }
 }
