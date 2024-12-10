@@ -35,10 +35,15 @@
 }
 
 @media (max-width: 800px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
   .footer-logo {
     display: none;
   }
+  .footer-info,
   .footer-redes {
-    margin-bottom: 20px;
+    margin-bottom: 21px;
   }
 }
