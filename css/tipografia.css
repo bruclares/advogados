@@ -60,18 +60,19 @@
 
 @media (max-width: 1200px) {
   .font-h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
 @media (max-width: 800px) {
   .font-h1 {
-    font-size: 3.25rem;
-  }
-  .font-italic-p {
     font-size: 2rem;
   }
+
   .font-button {
-    font-size: 1.5rem;
+    font-size: 1rem;
+  }
+  .font-italic-p {
+    font-size: 1.25rem;
   }
 }

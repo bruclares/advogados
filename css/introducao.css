@@ -26,7 +26,7 @@
 .botao {
   display: inline-block;
   padding: 16px 32px;
-  background: linear-gradient(#e9967a 20%, #eda78f 80%);
+  background: linear-gradient(135deg, #eda78f, #ffb99e, #e08c72);
   border-radius: 8px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
@@ -34,7 +34,7 @@
 }
 
 .botao:hover {
-  background: linear-gradient(#e9967a 100%, #ffffff 0%);
+  box-shadow: 0 6px 15px rgba(224, 140, 114, 0.4);
 }
 
 @media (max-width: 800px) {
@@ -52,5 +52,18 @@
 
   .introducao img {
     display: none;
+  }
+
+  .botao {
+    background: linear-gradient(135deg, #eda78f, #ffb99e, #e08c72);
+    padding: 12px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }
+  .botao a:hover {
+    background: linear-gradient(135deg, #f2f2f1, #fdfdfd);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   }
 }
