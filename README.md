@@ -1,8 +1,9 @@
 
 # Landing Page para Advogados
 
-Projeto independente de criação de uma landing page utilizando HTML e CSS. 
+Projeto independente de criação de uma landing page voltada para advogados, desenvolvida com foco em design, acessibilidade e otimização de desempenho.
 
+O projeto passou por um processo completo de design, desenvolvimento e otimização, resultando em uma landing page rápida, acessível e eficiente para advogados que buscam presença online profissional.
 https://advogados-ecru.vercel.app/
 
 
@@ -21,9 +22,14 @@ Atualmente, a landing page já conta com:
 ## Tecnologias Utilizadas
  - HTML5: Estruturação semântica do conteúdo.
  - CSS: Estilização responsiva e modular.
+ - Git: Versionamento e controle de código.
+ - Vercel: Deploy eficiente e contínuo.
 
 ## Auditoria no Lighthouse
-A página foi otimizada para garantir a melhor experiência de usuário, com excelente desempenho (98 de Performance), total acessibilidade (100 de Acessibilidade), seguindo as melhores práticas de desenvolvimento (100 de Melhores Práticas), e totalmente preparada para alcançar nossos clientes através de SEO eficaz (100 de SEO).
+🚀 Performance: 98
+♿ Acessibilidade: 100
+🛠️ Melhores Práticas: 100
+🔍 SEO: 100
 
 
 ![App Screenshot](https://github.com/bruclares/advogados/blob/57b707f4207052c8123743bd958a8f3cb828d7b6/Captura%20de%20tela%202024-12-12%20105009.png)
