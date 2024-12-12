@@ -5,7 +5,7 @@
 
 .depoimento-container {
   box-sizing: border-box;
-  padding: 20px;
+  padding: 1.25rem;
   margin: 0 auto;
   max-width: 1200px;
   margin-left: auto;
@@ -23,7 +23,7 @@
 .depoimento-cliente {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 80px;
+  gap: 5rem;
 }
 
 .depoimento-conteudo span {

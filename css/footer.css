@@ -7,7 +7,7 @@
 .footer-container,
 .copyright {
   box-sizing: border-box;
-  padding: 20px;
+  padding: 1.25rem;
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
@@ -21,17 +21,18 @@
 .footer-container h3,
 .footer-info {
   text-transform: uppercase;
-  margin-bottom: 7px;
+  margin-bottom: 0.4375rem;
 }
+
 .footer-redes {
-  margin-top: 21px;
-  margin-bottom: 50px;
+  margin-top: 1.3125rem;
+  margin-bottom: 3.125rem;
 }
 
 .footer-icones {
   display: flex;
-  margin-top: 7px;
-  gap: 21px;
+  margin-top: 0.4375rem;
+  gap: 1.3125rem;
 }
 
 @media (max-width: 800px) {
@@ -39,11 +40,13 @@
     display: flex;
     flex-direction: column-reverse;
   }
+
   .footer-logo {
     display: none;
   }
+
   .footer-info,
   .footer-redes {
-    margin-bottom: 21px;
+    margin-bottom: 1.3125rem;
   }
 }

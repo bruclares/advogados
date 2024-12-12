@@ -5,7 +5,7 @@
 
 .contato-container {
   box-sizing: border-box;
-  padding: 20px;
+  padding: 1.25rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;

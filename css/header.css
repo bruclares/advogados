@@ -1,10 +1,10 @@
 .header-container,
 .introducao {
   box-sizing: border-box;
-  padding: 20px;
+  padding: 1.25rem;
   margin: 0 auto;
   display: flex;
-  gap: 20px;
+  gap: 1.25rem;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
@@ -21,7 +21,7 @@
 
 .header-menu a {
   display: inline-block;
-  padding: 16px 0px;
+  padding: 1rem 0;
   position: relative;
 }
 
@@ -31,7 +31,7 @@
   height: 2px;
   width: 0px;
   background-color: var(--cor-destaque);
-  margin-top: 4px;
+  margin-top: 0.25rem;
   transition: 0.5s;
   position: absolute;
 }
@@ -46,22 +46,15 @@
   }
 
   .header-menu {
-    gap: 12px;
+    gap: 0.75rem;
   }
 
   .header-menu a {
-    /* background: linear-gradient(135deg, #f6f6f5, #ffffff);
     background: linear-gradient(135deg, #f6f6f5, #e4e4e3);
-    background: linear-gradient(135deg, #eda78f, #ffb99e, #e08c72);
-    padding: 12px 16px;
-    border-radius: 4px;
-    font-size: 1rem; */
-
-    background: linear-gradient(135deg, #f6f6f5, #e4e4e3);
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     font-size: 1rem;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     transition: background 0.3s ease, box-shadow 0.3s ease;
   }
   .header-menu a:hover {
@@ -75,6 +68,6 @@
 
 @media (max-width: 600px) {
   .header-menu a {
-    padding: 8px 12px;
+    padding: 0.5rem 0.75rem;
   }
 }
