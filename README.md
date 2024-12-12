@@ -4,6 +4,7 @@
 Projeto independente de criação de uma landing page voltada para advogados, desenvolvida com foco em design, acessibilidade e otimização de desempenho.
 
 O projeto passou por um processo completo de design, desenvolvimento e otimização, resultando em uma landing page rápida, acessível e eficiente para advogados que buscam presença online profissional.
+
 https://advogados-ecru.vercel.app/
 
 
